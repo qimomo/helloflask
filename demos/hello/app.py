@@ -25,7 +25,7 @@ def say_hello():
 
 
 # dynamic route, URL variable default
-@app.route('/greet', defaults={'name': 'Programmer'})
+@app.route('/greet', defaults={'name': 'Progra22255mmer'})
 @app.route('/greet/<name>')
 def greet(name):
     return '<h1>Hello, %s!</h1>' % name
